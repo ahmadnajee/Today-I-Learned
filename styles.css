@@ -35,6 +35,9 @@ body {
 }
 
 /* Elements */
+.category {
+  margin-bottom: 16px;
+}
 h1 {
   font-size: 42px;
   text-transform: uppercase;
@@ -75,4 +78,44 @@ h1 {
 
 ul {
   list-style: none;
+}
+.source:link,
+.source:visited {
+  color: #a8a29e;
+  text-decoration: none;
+  margin-left: 12px;
+  transition: 0.3s;
+}
+
+.source:hover,
+.source:active {
+  color: #3b82f6;
+}
+
+.btn {
+  border: none;
+  font-family: "Coiny", sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 0 13px;
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+.btn:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+.btn-large {
+  font-size: 20px;
+  padding: 20px 32px 17px;
+}
+
+.btn-all-categories {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.btn-category {
+  width: 100%;
+  background-image: none;
 }
